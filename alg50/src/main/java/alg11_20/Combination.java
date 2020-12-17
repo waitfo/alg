@@ -7,8 +7,18 @@ import java.util.List;
  */
 public class Combination {
     public static void main(String[] args) {
-        for (int i = 0; i < ; i++) {
-
+        int [] arr = new int[]{1,2,3,4};
+        int count = 0;
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                for (int k = 0; k < 4; k++) {
+                    if(i!=j&&i!=k&&j!=k){
+                        count++;
+                        System.out.println(arr[i]+""+arr[j]+""+arr[k]+"");
+                    }
+                }
+            }
         }
+        System.out.println(count);
     }
 }

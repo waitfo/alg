@@ -9,8 +9,8 @@
         <module name="alg50" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="alg50" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="alg50" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
