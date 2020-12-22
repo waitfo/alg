@@ -6,4 +6,11 @@ package alg21_30;
  * 岁。最后问第一个人，他说是10岁。请问第五个人多大？
  */
 public class Age {
+    public static void main(String[] args) {
+        int x = 10;
+        for (int i = 0; i < 5; i++) {
+            System.out.println("第"+i+"个人"+x+"岁");
+            x=x+2;
+        }
+    }
 }
