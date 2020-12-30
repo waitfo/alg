@@ -6,7 +6,7 @@ package alg41_50;
  */
 public class Arrange{
     public static void main(String[] args) {
-        baoli();
+        //baoli();
     }
 
     
@@ -29,5 +29,16 @@ public class Arrange{
         }
 
         System.out.println(sum);
+    }
+
+    public static void xunhun(){
+        //每个位置都可能出现，所以使用循环，给每个位置都添加上一个数
+        int [] arr = new int[]{0,1,2,3,4,5,6,7};
+        int [] out = new int[]{-1,-1,-1,-1,-1,-1,-1,-1};
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                out[j]=arr[i];
+            }
+        }
     }
 }
